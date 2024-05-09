@@ -1,22 +1,18 @@
-# PCA: EXP-1 SUM ARRAY GPU
-
-<h3>NAME : SOUVIK KUNDU </h3>
-<h3>REGISTER NO: 212221230105</h3>
-<h3>EX. NO : 1</h3>
-<h3>DATE : 27.02.24</h3>
+# PCA: EXP-1  SUM ARRAY GPU
+### Name: SOUVIK KUNDU
+### Reg.No : 2122212030105
+### Exp.No : 01
+### Date: 28/02/24
 <h1> <align=center> SUM ARRAY ON HOST AND DEVICE </h3>
 PCA-GPU-based-vector-summation.-Explore-the-differences.
-
 i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile and run it. Compare the result with the execution configuration of block.x = 1024. Try to explain the difference and the reason.
 
 ii) Refer to sumArraysOnGPU-timer.cu, and let block.x = 256. Make a new kernel to let each thread handle two elements. Compare the results with other execution confi gurations.
-
 ## AIM:
 
 To perform vector addition on host and device.
 
 ## EQUIPMENTS REQUIRED:
-
 Hardware – PCs with NVIDIA GPU & CUDA NVCC
 Google Colab with NVCC Compiler
 
@@ -30,7 +26,6 @@ Google Colab with NVCC Compiler
 6. Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 ## PROGRAM:
-
 ```c
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -176,9 +171,7 @@ int main(int argc, char **argv)
 ```
 
 ## OUTPUT:
-
-![](s1.png)
+![image](https://github.com/Meenakshi0907/PCA-EXP-1-SUM-ARRAY-GPU-AY-23-24/assets/94165108/d66c676c-5b46-4279-b0c4-4f89e6d53883)
 
 ## RESULT:
-
 Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
